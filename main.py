@@ -18,9 +18,9 @@ with col3:
 
 st.line_chart(data['sales'])
 
-
-st.header("Sales table")
-st.subheader("This is a sales table")
-st.write(data)
+if st.checkbox("show table"):
+    st.header("Sales table")
+    st.subheader("This is a sales table")
+    st.write(data)
 
 

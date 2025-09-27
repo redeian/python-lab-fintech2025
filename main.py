@@ -38,7 +38,7 @@ if nbutton:
         st.error(f"Request failed: {e}")
 
 
-POST_URL = "http://localhost:5678/webhook/postTV"
+POST_URL = "https://116ae1675f2a.ngrok-free.app/webhook/postTV"
 POST_HEADERS = {
     "Content-Type": "application/json",
     "Authorization": "Bearer 11111",
